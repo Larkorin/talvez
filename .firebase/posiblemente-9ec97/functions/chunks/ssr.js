@@ -137,10 +137,10 @@ export {
   escape as e,
   each as f,
   getContext as g,
-  null_to_empty as h,
+  noop as h,
   safe_not_equal as i,
   missing_component as m,
-  noop as n,
+  null_to_empty as n,
   setContext as s,
   validate_component as v
 };
