@@ -10,14 +10,12 @@ return {
 	assets: new Set(["favicon.png","robots.txt"]),
 	mimeTypes: {".png":"image/png",".txt":"text/plain"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.6bbb4899.js","app":"_app/immutable/entry/app.6ce6ecca.js","imports":["_app/immutable/entry/start.6bbb4899.js","_app/immutable/chunks/scheduler.4b94184d.js","_app/immutable/chunks/singletons.5754b764.js","_app/immutable/chunks/index.5ebb6b47.js","_app/immutable/chunks/parse.bee59afc.js","_app/immutable/entry/app.6ce6ecca.js","_app/immutable/chunks/scheduler.4b94184d.js","_app/immutable/chunks/index.53cef206.js","_app/immutable/chunks/environment.c65a56ab.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.bcdc82c7.js","app":"_app/immutable/entry/app.d6c15d37.js","imports":["_app/immutable/entry/start.bcdc82c7.js","_app/immutable/chunks/scheduler.6b255819.js","_app/immutable/chunks/singletons.1550d660.js","_app/immutable/chunks/index.92808898.js","_app/immutable/entry/app.d6c15d37.js","_app/immutable/chunks/scheduler.6b255819.js","_app/immutable/chunks/index.22b4eb1a.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
 			__memo(() => import('./nodes/2.js')),
-			__memo(() => import('./nodes/3.js')),
-			__memo(() => import('./nodes/4.js')),
-			__memo(() => import('./nodes/5.js'))
+			__memo(() => import('./nodes/3.js'))
 		],
 		routes: [
 			{
@@ -28,24 +26,10 @@ return {
 				endpoint: null
 			},
 			{
-				id: "/about",
-				pattern: /^\/about\/?$/,
+				id: "/dashboard",
+				pattern: /^\/dashboard\/?$/,
 				params: [],
 				page: { layouts: [0,], errors: [1,], leaf: 3 },
-				endpoint: null
-			},
-			{
-				id: "/sverdle",
-				pattern: /^\/sverdle\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 4 },
-				endpoint: null
-			},
-			{
-				id: "/sverdle/how-to-play",
-				pattern: /^\/sverdle\/how-to-play\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 5 },
 				endpoint: null
 			}
 		],
